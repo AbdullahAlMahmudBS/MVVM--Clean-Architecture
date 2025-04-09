@@ -1,0 +1,89 @@
+:::::::::::::Project Structure:::::::::::::::::
+
+test
+├── widget_test.dart
+.metadata
+pubspec.lock
+generate_tree.dart
+flutter_mvvm_prac_1_eu.iml
+README.md
+pubspec.yaml
+.gitignore
+lib
+├── core
+│   ├── di
+│   │   ├── injection.dart
+│   │   ├── app_injector.dart
+│   │   ├── di_setup.dart
+│   ├── constants
+│   │   ├── app_constant.dart
+│   ├── network
+│   │   ├── error_handlers.dart
+│   │   ├── exceptions
+│   │   │   ├── base_exception.dart
+│   │   │   ├── app_exception.dart
+│   │   ├── request_header.dart
+│   │   ├── dio_provider.dart
+│   ├── utils
+│   │   ├── custom_dialog.dart
+│   ├── theme
+│   │   ├── color_palettes.dart
+│   ├── routing
+│   │   ├── route_list.dart
+│   │   ├── app_routes.dart
+│   │   ├── route_path.dart
+│   │   ├── app_router.dart
+│   ├── base
+│   │   ├── base_page_state.dart
+│   │   ├── base_remote_source.dart
+│   │   ├── base_view_model.dart
+│   │   ├── base_view.dart
+│   │   ├── base_response.dart
+│   ├── services
+│   │   ├── navigator
+│   │   │   └── app_navigation_service.dart
+│   ├── widgets
+│   │   └── loader
+│   │   │   └── app_loader.dart
+├── main.dart
+├── data
+│   ├── datasources
+│   │   ├── product
+│   │   │   └── product_remote_datasource.dart
+│   │   │   └── product_remote_datasource_impl.dart
+│   ├── repositories
+│   │   ├── product
+│   │   │   └── product_repository_impl.dart
+│   ├── models
+│   │   ├── product
+│   │   │   └── product_model.dart
+│   │   │   └── product_details_model.dart
+│   ├── api
+│   │   └── api_endpoints.dart
+├── domain
+│   ├── repositories
+│   │   ├── product
+│   │   │   └── product_repository.dart
+│   ├── usecases
+│   │   ├── product
+│   │   │   └── get_products_usecase.dart
+│   │   │   └── get_product_details_usecase.dart
+│   ├── entities
+│   │   └── product
+│   │   │   └── product.dart
+│   │   │   └── product_details.dart
+├── presentation
+│   └── screens
+│   │   └── splash
+│   │   │   ├── splash_screen.dart
+│   │   └── products
+│   │   │   └── product_details
+│   │   │   │   ├── product_details_screen.dart
+│   │   │   │   ├── view_model
+│   │   │   │   │   └── product_details_view_model.dart
+│   │   │   └── products_list
+│   │   │   │   └── products_viewmodel.dart
+│   │   │   │   └── products_list_screen.dart
+│   │   │   │   └── widgets
+│   │   │   │   │   └── product_item_widget.dart
+analysis_options.yaml
