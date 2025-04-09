@@ -1,4 +1,4 @@
-import '../../generated/app_localizations.dart';
+import '../localization/generated/app_localizations.dart';
 import '../services/navigator/app_navigation_service.dart';
 
 /**

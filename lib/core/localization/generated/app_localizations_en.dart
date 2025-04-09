@@ -10,7 +10,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get appTitle => 'E-commerce';
 
   @override
-  String get products => 'Products';
+  String get products => 'Product List';
 
   @override
   String get cart => 'Cart';

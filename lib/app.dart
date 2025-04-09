@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'core/localization/generated/app_localizations.dart';
 import 'core/localization/language_manager.dart';
 import 'core/routing/app_router.dart';
-import 'generated/app_localizations.dart';
+
 
 /**
  * Created by Abdullah on 9/4/25.

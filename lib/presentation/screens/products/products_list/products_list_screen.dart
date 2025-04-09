@@ -5,7 +5,6 @@ import 'package:flutter_mvvm_prac_1_eu/core/routing/route_path.dart';
 import 'package:flutter_mvvm_prac_1_eu/core/utils/language_helper.dart';
 import 'package:flutter_mvvm_prac_1_eu/core/widgets/language_swircher.dart';
 import 'package:flutter_mvvm_prac_1_eu/domain/entities/product/product.dart';
-import 'package:flutter_mvvm_prac_1_eu/generated/app_localizations.dart';
 import 'package:flutter_mvvm_prac_1_eu/presentation/screens/products/products_list/products_viewmodel.dart';
 
 import 'widgets/product_item_widget.dart';

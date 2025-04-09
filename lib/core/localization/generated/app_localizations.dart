@@ -104,7 +104,7 @@ abstract class AppLocalizations {
   /// No description provided for @products.
   ///
   /// In en, this message translates to:
-  /// **'Products'**
+  /// **'Product List'**
   String get products;
 
   /// No description provided for @cart.
