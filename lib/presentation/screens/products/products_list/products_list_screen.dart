@@ -2,7 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mvvm_prac_1_eu/core/base/base_view.dart';
 import 'package:flutter_mvvm_prac_1_eu/core/routing/app_routes.dart';
 import 'package:flutter_mvvm_prac_1_eu/core/routing/route_path.dart';
+import 'package:flutter_mvvm_prac_1_eu/core/utils/language_helper.dart';
+import 'package:flutter_mvvm_prac_1_eu/core/widgets/language_swircher.dart';
 import 'package:flutter_mvvm_prac_1_eu/domain/entities/product/product.dart';
+import 'package:flutter_mvvm_prac_1_eu/generated/app_localizations.dart';
 import 'package:flutter_mvvm_prac_1_eu/presentation/screens/products/products_list/products_viewmodel.dart';
 
 import 'widgets/product_item_widget.dart';
@@ -23,7 +26,11 @@ class ProductsScreen extends BaseView<ProductViewModel> {
     return AppBar(
       centerTitle: true,
       leading: const SizedBox(),
-      title: const Text('Products'),
+      title:
+      Text(Localized.products),
+      actions: const [
+        LanguageSwitcher()
+      ],
 
     );
   }

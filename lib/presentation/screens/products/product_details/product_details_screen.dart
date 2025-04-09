@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mvvm_prac_1_eu/core/base/base_view.dart';
+import 'package:flutter_mvvm_prac_1_eu/core/routing/app_routes.dart';
 import 'package:flutter_mvvm_prac_1_eu/domain/entities/product/product_details.dart';
 import 'package:flutter_mvvm_prac_1_eu/presentation/screens/products/product_details/view_model/product_details_view_model.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
@@ -24,6 +25,21 @@ class ProductDetailsScreen extends BaseView<ProductDetailsViewModel> {
           slivers: [
             SliverAppBar(
               expandedHeight: 300,
+              leading: Container(
+                height: 40,
+                width: 40,
+                decoration: BoxDecoration(
+                  color: Colors.white70,
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                child: IconButton(
+                  iconSize: 20,
+                  icon: const Icon(Icons.arrow_back),
+                  onPressed: () {
+                    AppRoutes.pop();
+                  },
+                ),
+              ),
               pinned: true,
               flexibleSpace: FlexibleSpaceBar(
                 background: Hero(
@@ -37,11 +53,20 @@ class ProductDetailsScreen extends BaseView<ProductDetailsViewModel> {
                 ),
               ),
               actions: [
-                IconButton(
-                  icon: const Icon(Icons.share),
-                  onPressed: () {
-                    // Add share functionality if desired
-                  },
+                Container(
+                  height: 40,
+                  width: 40,
+                  decoration: BoxDecoration(
+                    color: Colors.white70,
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  child: IconButton(
+                    iconSize: 20,
+                    icon: const Icon(Icons.share),
+                    onPressed: () {
+                      // Add share functionality if desired
+                    },
+                  ),
                 ),
               ],
             ),
