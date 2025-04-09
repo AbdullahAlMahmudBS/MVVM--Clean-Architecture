@@ -85,7 +85,7 @@ This project implements MVVM architecture with Clean Architecture principles:
 
 1. Clone the repository
    ```
-   git clone https://github.com/yourusername/flutter_mvvm_prac_1_eu.git
+   git clone https://github.com/AbdullahAlMahmudBS/flutter_mvvm_prac_1_eu.git
    ```
 
 2. Navigate to the project directory
@@ -109,7 +109,7 @@ The project uses the following major dependencies:
 
 - **dio**: For HTTP requests
 - **get_it**: For dependency injection
-- **flutter_bloc** or **provider**: For state management (based on implementation)
+- **Value Notifier** : For state management
 
 Check `pubspec.yaml` for a complete list of dependencies.
 
