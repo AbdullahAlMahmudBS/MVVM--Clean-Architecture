@@ -43,6 +43,8 @@ dependencies:
   flutter_rating_bar: ^4.0.1
   intl: ^0.19.0 # Add this
   shared_preferences: ^2.2.0
+  native_bridge_plugin:
+    path: plugins/native_bridge_plugin
 dev_dependencies:
   flutter_test:
     sdk: flutter

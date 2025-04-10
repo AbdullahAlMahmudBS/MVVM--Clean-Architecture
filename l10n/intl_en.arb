@@ -7,5 +7,9 @@
   "noProducts": "No products available",
   "addedToCart": "Added to cart!",
   "refresh": "Refresh",
-  "settings": "Settings"
+  "settings": "Settings",
+  "language": "Language",
+  "deviceInfo": "Device Info",
+  "platformVersion": "Platform Version",
+  "batteryLevel": "Battery"
 }

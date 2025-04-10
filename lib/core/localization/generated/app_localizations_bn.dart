@@ -32,4 +32,16 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get settings => 'সেটিংস';
+
+  @override
+  String get language => 'ভাষা';
+
+  @override
+  String get deviceInfo => 'ডিভাইসের তথ্য';
+
+  @override
+  String get platformVersion => 'প্ল্যাটফর্ম সংস্করণ';
+
+  @override
+  String get batteryLevel => 'ব্যাটারি স্তর';
 }

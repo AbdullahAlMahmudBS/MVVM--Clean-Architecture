@@ -27,8 +27,13 @@ class ProductsScreen extends BaseView<ProductViewModel> {
       leading: const SizedBox(),
       title:
       Text(Localized.products),
-      actions: const [
-        LanguageSwitcher()
+      actions:  [
+        IconButton(
+          icon: const Icon(Icons.settings),
+          onPressed: () {
+            AppRoutes.pushNamed(RoutePath.settings);
+          },
+        ),
       ],
 
     );

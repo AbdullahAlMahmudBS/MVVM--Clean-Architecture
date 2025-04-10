@@ -32,4 +32,16 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get settings => 'Settings';
+
+  @override
+  String get language => 'Language';
+
+  @override
+  String get deviceInfo => 'Device Info';
+
+  @override
+  String get platformVersion => 'Platform Version';
+
+  @override
+  String get batteryLevel => 'Battery';
 }

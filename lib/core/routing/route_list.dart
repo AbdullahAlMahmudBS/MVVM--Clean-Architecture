@@ -1,6 +1,7 @@
 import 'package:flutter_mvvm_prac_1_eu/core/routing/route_path.dart';
 import 'package:flutter_mvvm_prac_1_eu/presentation/screens/products/product_details/product_details_screen.dart';
 import 'package:flutter_mvvm_prac_1_eu/presentation/screens/products/products_list/products_list_screen.dart';
+import 'package:flutter_mvvm_prac_1_eu/presentation/screens/settings/settings_screen.dart';
 import 'package:flutter_mvvm_prac_1_eu/presentation/screens/splash/splash_screen.dart';
 import 'package:go_router/go_router.dart';
 
@@ -30,6 +31,14 @@ abstract class AppRoutesList {
             state.extra as int,
           ),
       ),
+
+      GoRoute(
+          path: RoutePath.settings,
+          name: RoutePath.settings,
+          builder: (context, state) => SettingsScreen(),
+      ),
+
+
 
 
 

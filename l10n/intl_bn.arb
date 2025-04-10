@@ -7,5 +7,9 @@
   "noProducts": "কোনো পণ্য উপলব্ধ নয়",
   "addedToCart": "কার্টে যোগ হয়েছে!",
   "refresh": "রিফ্রেশ করুন",
-  "settings": "সেটিংস"
+  "settings": "সেটিংস",
+  "language": "ভাষা",
+  "deviceInfo": "ডিভাইসের তথ্য",
+  "platformVersion": "প্ল্যাটফর্ম সংস্করণ",
+  "batteryLevel": "ব্যাটারি স্তর"
 }
